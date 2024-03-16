@@ -1,0 +1,207 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    color: #2a2a2a;
+    line-height: 18px;
+    font-size: 12px;
+    font-family: Arial;
+    background-color: #ffffff;
+    background-image: url(/web/20130806041918im_/http://yambler.net/images/body_bg.png);
+}
+header
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1vw;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+header > a
+{
+    text-decoration: underline;
+    font-size: 12px;
+    color: #2a2a2a;
+}
+header > a:hover
+{
+    text-decoration: none;
+}
+header > a:nth-child(1)
+{
+    font-size: 12px;
+    color: #2a2a2a;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+header > a:nth-child(1):hover
+{
+    text-decoration: underline;
+}
+.input-search
+{
+  background-color: #fe8b24;
+  padding: 12px 11px;
+  border-radius: 4px;
+  height: 46px;
+  width: 80vw;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1vw;
+}
+input[type=search]
+{
+    width: 75vw;
+    height: 22px;
+}
+input[type=submit]
+{
+    padding: 3px 4px;
+}
+.search
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+main
+{
+    margin-top: 3%;
+}
+section
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 2vw;
+}
+section > div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.row > a
+{
+    text-decoration: none;
+    color: inherit;
+}
+section > div:nth-child(2) > .row > img, section > div:nth-child(3) > img
+{
+    width: 150px;
+    height: 150px;
+}
+section > div:nth-child(2) > .row 
+{
+    color: #0000CC;
+    text-decoration: none;
+    font-size: 22px;
+}
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial;
+    line-height: 46px;
+    font-size: 12px;
+    background-color: #fe8b24;
+    margin-top: 1vw;
+}
+h2
+{
+    padding: 20px 0 10px 0;
+    margin: 0;
+    font-weight: normal;
+}
+section > div:nth-child(1) > .row > strong
+{
+    color: #184751;
+    font-size: 12px;
+    font-weight: bold;
+}
+section > div:nth-child(1) > .row > a:hover
+{
+    text-decoration: underline;
+}
+iframe
+{
+    align-self: center;
+}
+audio
+{
+    width: 50vw;
+    display: none;
+}
+#songName, #PlayStop, #Next, #setHomepage
+{
+    background-color: #fe8b24;
+    padding: 5px;
+    border-radius: 4px;
+    color: #fff;
+}
+fieldset
+{
+    padding: 10px;
+    border-color: #fe8b24;
+}
+.flying-photo {
+    position: absolute;
+    transition: all ease 1s;
+  }
+  @media (max-width: 1271px)
+{
+    html body main section div table
+    {
+        width: 560px;
+    }
+}
+@media (max-width: 560px) {
+    #songName, #setHomepage {
+        width: 100%;
+    }
+    header
+    {
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    html body main div.search div
+    {
+        width: 100%;
+        text-align: center;
+    }
+    section > div:nth-child(2)
+    {
+        width: 80%;
+    }
+    iframe
+    {
+        width: 350px;
+        height: 150px;
+    }
+    html body main section div table
+    {
+        width: 350px;
+    }
+    
+}

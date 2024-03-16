@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yambler</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/yambler-logo.png"/>
+</head>
+
+<body>
+    <header>
+        <a href="###">Поиск</a>
+        <a href="https://innewstru.com/#">Новости</a>
+        <a href="https://relax.intim74.one/">Интим-знакомства</a>
+        <a href="https://relax.intim74.one/">Знакомства</a>
+        <a href="###">Игры</a>
+        <a href="###">Игры для мобильных</a>
+        <a href="https://innewstru.com/c/%D0%AD%D0%B7%D0%BE%D1%82%D0%B5%D1%80%D0%B8%D0%BA%D0%B0#">Гороскопы<a>
+                <a href="https://tv.rambler.ru/">Программа передач</a>
+                <a
+                    href="https://www.afisha.ru/?utm_source=tickets&utm_medium=special&utm_campaign=af_kassa-redirect_welcome&kassa=tickets">Афиша</a>
+                <p id="songName"></p>
+                <fieldset>
+                    <button onclick="playStop()" id="PlayStop">Играть/Стоп</button>
+                    <button onclick="playNextSong()" id="Next">След. мелодия</button>
+                </fieldset>
+                <img src="assets/img/yambler.music_logo.jpg">
+                <button id="setHomepage">Сделать домашней</button>
+    </header>
+    <main>
+        <div class="search">
+            <img src="assets/img/logo.png">
+            <div>
+                <p style="font-size: 18px; color: #fe8b24; font-weight: bold;">Ямблер - релевантный поиск сразу в трех
+                    поисковиках!</p>
+                <br>
+                <div class="input-search">
+                    <input type="search" id="searchInput">
+                    <input type="submit" value="Найти" onclick="searchRambler()">
+                </div>
+            </div>
+        </div>
+        <section>
+            <div>
+                <div class="row">
+                    <img src="assets/img/vk.png">
+                    <a href="https://vk.com"><strong>Вконтакте</strong> <br>
+                        Социальная сеть
+                    </a>
+                </div>
+                <div class="row">
+                    <img src="assets/img/ok.png">
+                    <a href="https://ok.ru"><strong>Одноклассники</strong> <br>
+                        Социальная сеть
+                    </a>
+                </div>
+                <div class="row">
+                    <img src="assets/img/w.png">
+                    <a href="https://www.wildberries.ru"><strong>Wildberries</strong> <br>
+                        Ваш проводник в мире моды!
+                    </a>
+                </div>
+                <div class="row">
+                    <img src="assets/img/list.png">
+                    <a href="https://hullzdravie.click/lander/chudo-frukt--free-ntv-sukhankina/index.php#"><strong>Чудофрукт</strong>
+                        <br>
+                        Я похудела на 300 тонн!
+                    </a>
+                </div>
+                <div class="row">
+                    <img src="assets/img/li4.png">
+                    <a
+                        href="https://innewstru.com/prenews?template=51&utm_term=439676748&utm_content=2263748&subparam1=167057&country=Russia&utm_source=1013_1563&nid=39824&click_id=50895412-d7e5-4635-9f8c-2e226aa43712&deviceModel=Desktop&city_ru=%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA&city=Chelyabinsk&country_ru=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F#"><strong>Новости</strong>
+                        <br>
+                        Самые свежие новости рунета
+                    </a>
+                </div>
+                <div class="row">
+                    <img src="assets/img/li3.png">
+                    <a href="https://znakomstva.rambler.ru"><strong>Знакомства</strong> <br>
+                        Ямблер сближает людей
+                    </a>
+                </div>
+                <div class="row">
+                    <img src="assets/img/li7.png">
+                    <a href="https://games.rambler.ru"><strong>Игры</strong> <br>
+                        Подзарядка позитивом
+                    </a>
+                </div>
+                <div class="row">
+                    <img src="assets/img/mobile.png">
+                    <a href="https://games.rambler.ru/mobile"><strong>Игры для мобильных</strong> <br>
+                        Всегда с тобой
+                    </a>
+                </div>
+                <div class="row">
+                    <img src="assets/img/li6.png">
+                    <a href="https://innewstru.com/c/%D0%AD%D0%B7%D0%BE%D1%82%D0%B5%D1%80%D0%B8%D0%BA%D0%B0#"><strong>Гороскопы</strong>
+                        <br>
+                        Загляни в будущее
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h2>Новости</h2>
+                <div class="row">
+                    <img src="assets/img/yamblertaxi.png">
+                    <p>В эту игру играет ВСЯ Россия!</p>
+                </div>
+                <div class="row">
+                    <img src="assets/img/sex.jpg">
+                    <p>Заниматься СЕКСОМ долго не нужно. Вот почему!</p>
+                </div>
+                <div class="row">
+                    <img src="assets/img/boor.jpg">
+                    <p>Найденное на глубине 14 км испугало бурильщиков до смерти</p>
+                </div>
+                <div class="row">
+                    <img src="assets/img/death.jpg">
+                    <p>Скончалась любимейшая певица россиян!</p>
+                </div>
+                <div class="row">
+                    <img src="assets/img/sex2.jpg">
+                    <p>Вот сколько должен длиться секс, который доставит удовольствие!</p>
+                </div>
+                <div class="row">
+                    <img src="assets/img/sex3.jpeg">
+                    <p>Секс с НЕБРИТОЙ девушкой - залог вашего здоровья</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7_WkgaaKnjI?si=xpoWQzB6kIXa7h8_"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <audio id="audioPlayer" controls="controls" autoplay>
+                    <source src="assets/audio/Main_Theme.mp3" type="audio/mpeg">
+                    <source src="assets/audio/Wonderfruit_Tranquility.mp3" type="audio/mpeg">
+                    <source src="assets/audio/Penis_Madness.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+            </div>
+            <div>
+                <!--  FOREXPF.RU - Курсы ЦБ РФ start -->
+                <table width="186" border="1"
+                    style="border-collapse: collapse; text-align:center; font-size:10px; color:#000000; ">
+                    <tr bgcolor="">
+                        <td height="10" valign="top" colspan="3">
+                            <style>
+                                A.forexpf_ {
+                                    text-decoration: none;
+                                    font-size: 10px;
+                                }
+
+                                A.forexpf_:visited {
+                                    color: #000000;
+                                    font-size: 10px;
+                                }
+                            </style><a href="http://www.profinance.ru/" title="Курсы валют ЦБ РФ" target="_blank"
+                                class="forexpf_">Курсы валют ЦБ РФ</a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#F6EDDD">
+                        <td>Дата:</td>
+                        <td id="pfdt1">00:00</td>
+                        <td id="pfdt2">00:00</td>
+                    </tr>
+                    <tr bgcolor="">
+                        <td><a href="http://www.profinance.ru/currency_usd.asp" title="Курс доллара" target="_blank"
+                                class="forexpf_">Курс доллара</a></td>
+                        <td id="usrutd">0.00</td>
+                        <td id="usrutm">0.00</td>
+                    </tr>
+                    <tr bgcolor="#F6EDDD">
+                        <td><a href="http://www.profinance.ru/currency_eur.asp" title="Курс Евро" target="_blank"
+                                class="forexpf_">Курс евро</a></td>
+                        <td id="eurutd">0.00</td>
+                        <td id="eurutm">0.00</td>
+                    </tr>
+                    <tr bgcolor="">
+                        <td><a href="http://www.profinance.ru/currency_usd.asp" title="Курс фунта" target="_blank"
+                                class="forexpf_">Курс фунта</a></td>
+                        <td id="gbrutd">0.00</td>
+                        <td id="gbrutm">0.00</td>
+                    </tr>
+                    <tr bgcolor="#F6EDDD">
+                        <td><a href="http://www.profinance.ru/currency_usd.asp" title="Курс бел. рубля" target="_blank"
+                                class="forexpf_">Курс бел. рубля</a></td>
+                        <td id="byrutd">0.00</td>
+                        <td id="byrutm">0.00</td>
+                    </tr>
+                    <tr bgcolor="">
+                        <td><a href="http://www.profinance.ru/currency_usd.asp" title="Курс тенге" target="_blank"
+                                class="forexpf_">Курс тенге</a></td>
+                        <td id="kzrutd">0.00</td>
+                        <td id="kzrutm">0.00</td>
+                    </tr>
+                    <tr bgcolor="#F6EDDD">
+                        <td><a href="http://www.profinance.ru/currency_usd.asp" title="Курс юаня" target="_blank"
+                                class="forexpf_">Курс юаня</a></td>
+                        <td id="cnrutd">0.00</td>
+                        <td id="cnrutm">0.00</td>
+                    </tr>
+                    <tr bgcolor="">
+                        <td><a href="http://www.profinance.ru/currency_usd.asp" title="Курс гривны" target="_blank"
+                                class="forexpf_">Курс гривны</a></td>
+                        <td id="uarutd">0.00</td>
+                        <td id="uarutm">0.00</td>
+                    </tr>
+                    <tr bgcolor="#F6EDDD">
+                        <td><a href="http://www.profinance.ru/currency_usd.asp" title="Курс франка" target="_blank"
+                                class="forexpf_">Курс франка</a></td>
+                        <td id="chrutd">0.00</td>
+                        <td id="chrutm">0.00</td>
+                    </tr>
+                    <tr bgcolor="">
+                        <td><a href="http://www.profinance.ru/currency_usd.asp" title="Курс йены" target="_blank"
+                                class="forexpf_">Курс йены</a></td>
+                        <td id="jprutd">0.00</td>
+                        <td id="jprutm">0.00</td>
+                    </tr>
+                </table>
+                <script src="https://informers.forexpf.ru/php/cbrf.php?id=012345678"></script>
+                </td>
+                </tr>
+                </table>
+                <img src="assets/img/yambler-logo.png" alt="Flying Photo" class="flying-photo">
+                <audio id="audio" src="assets/audio/kaspersky.mp3"></audio>
+                <audio id="closingSound" src="assets/audio/wait.ogg"></audio>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>© 2024 Yambler.com</p>
+    </footer>
+</body>
+<script>
+    function searchRambler() {
+        var query = document.getElementById("searchInput").value;
+        // Проверка, чтобы избежать поиска пустой строки
+        if (query.trim() !== "") {
+            // Замените ссылку ниже на ссылку поиска на сайте Rambler
+            var searchUrl = "https://nova.rambler.ru/search?query=" + encodeURIComponent(query);
+            window.location.href = searchUrl;
+        }
+    }
+    var audioPlayer = document.getElementById('audioPlayer');
+
+    // Массив с композициями
+    var songs = [
+        'Main_Theme.mp3',
+        'Wonderfruit_Tranquility.mp3',
+        'Penis_Madness.mp3'
+    ];
+
+    var currentSongIndex = 0;
+    function updateSongName() {
+        document.getElementById('songName').innerText = "Сейчас играет: " + songs[currentSongIndex];
+    }
+
+    function playNextSong() {
+        currentSongIndex++;
+        if (currentSongIndex >= songs.length) {
+            currentSongIndex = 0;
+        }
+        audioPlayer.src = 'assets/audio/' + songs[currentSongIndex];
+        audioPlayer.play();
+        updateSongName();
+    }
+    function playStop() {
+        activeSong = document.getElementById('audioPlayer');
+        if (activeSong.paused) {
+            activeSong.play();
+        } else {
+            activeSong.pause();
+        }
+
+    }
+    audioPlayer.addEventListener('ended', function () {
+        playNextSong();
+    });
+    updateSongName()
+    document.addEventListener("DOMContentLoaded", function() {
+  const photo = document.querySelector('.flying-photo');
+
+  function getRandomPosition() {
+    const x = Math.random() * (window.innerWidth - photo.width);
+    const y = Math.random() * (window.innerHeight - photo.height);
+    return { x, y };
+  }
+
+  function animatePhoto() {
+    const pos = getRandomPosition();
+    photo.style.left = pos.x + 'px';
+    photo.style.top = pos.y + 'px';
+  }
+  photo.addEventListener('click', function() {
+    audio.play();
+  });
+
+  setInterval(animatePhoto, 3000); // Change the interval as needed
+});
+document.addEventListener("DOMContentLoaded", function() {
+  const setHomePageButton = document.getElementById('setHomepage');
+
+  setHomePageButton.addEventListener('click', function() {
+    // Проверяем, поддерживает ли браузер установку домашней страницы
+    if (window.navigator.userAgent.includes("Chrome")) {
+      // Если да, используем метод setHomePage
+      window.chrome && window.chrome.permissions && window.chrome.permissions.request({
+        origins: [location.href]
+      }, function(granted) {
+        if (granted) {
+          alert("Страница успешно сделана домашней.");
+        } else {
+          alert("Невозможно установить эту страницу как домашнюю.");
+        }
+      });
+    } else {
+      // Если браузер не поддерживает установку домашней страницы, сообщаем об этом пользователю
+      alert("Извините, ваш браузер не поддерживает установку домашней страницы.");
+    }
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+  const closingSound = document.getElementById('closingSound');
+  // Воспроизведение звука при попытке закрыть страницу
+  window.addEventListener('beforeunload', function() {
+    closingSound.play();
+  });
+});
+window.onbeforeunload = function() { 
+return "Вы действительно хотите покинуть страницу?"; 
+}; 
+
+
+
+
+
+    
+
+
+
+    
+
+
+  
+
+
+
+
+</script>
+
+</html>
